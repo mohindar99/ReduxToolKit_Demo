@@ -48,13 +48,7 @@
 }
 
 
-div {
-    display: inline;
-    margin: 0;
-  }
-  .main{
-    display: grid;
-  }
-  .allign{
-    padding-right: 30%;
+.allign{
+    display:inline;
+ 
   }
