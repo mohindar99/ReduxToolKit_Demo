@@ -14,6 +14,7 @@ const DisplayUsers = () => {
 
     const deleteUser = (id) => {
         dispatch(removeUser(id));
+
     }
     
   return (

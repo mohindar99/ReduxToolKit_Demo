@@ -12,9 +12,10 @@ const userSlice = createSlice({
      // console.log("hiii" + action.payload);
       state.splice(action.payload,1);
 
-
     },
-    deleteUsers(state, action) {},
+    deleteUsers(state, action) {
+     state.splice(0,state.length);
+    },
   },
 });
 
@@ -22,5 +23,5 @@ console.log(userSlice.actions);
 
 export { userSlice };
   
-export const { addUser,removeUser } = userSlice.actions;
+export const { addUser,removeUser ,deleteUsers} = userSlice.actions;
  
