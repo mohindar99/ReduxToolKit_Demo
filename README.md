@@ -17,7 +17,9 @@ We would be creating some random users by fetching some data by using the redux 
  
  npm install
  
- npm start
+ npm run dev 
+ 
+ // as we have used the vite to create the project 
 
 
 
